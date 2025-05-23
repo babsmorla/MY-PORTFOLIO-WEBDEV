@@ -792,9 +792,21 @@ svg {
   margin-bottom: 2rem
 }
 
-.projectDescription {
-  margin-left: ;
+.projectDescription button{
+  background-color: #f3e0bf ;
 }
+.projectDescription button:hover{
+  background-color: #f8c98f;
+}
+
+.projectDescription button:active{
+  background-color: #fdd4a1;
+  color: white;
+}
+
+
+
+
 
 /* **************************************** PROJECTSSS */
 
@@ -840,12 +852,22 @@ svg {
   align-items: center;
 }
 
+#projectMain2 .work-tag li {
+  /* background-color: #f9b121; */
+  background-color: #8b47fd;
+  color: white;
+  padding: 0.8rem 1.3rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem
+}
 
 
 #projectMain3 .work-tag li {
   /* background-color: #f9b121; */
-  background-color: #ffffff;
+  background-color: #ff5600;
   padding: 0.8rem 1.3rem;
+  color: white;
   border-radius: 2rem;
   font-size: 1.2rem;
   margin-bottom: 2rem
@@ -853,8 +875,9 @@ svg {
 
 #projectMain .work-tag li {
   /* background-color: #f9b121; */
-  background-color: #ffffff;
+  background-color: #5ea51d;
   padding: 0.8rem 1.3rem;
+  color: white;
   border-radius: 2rem;
   font-size: 1.2rem;
   margin-bottom: 2rem
